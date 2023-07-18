@@ -24,7 +24,7 @@ function Signup() {
         <input
           type="text"
           id="inputUsername"
-          class="form-control"
+          className="form-control"
           placeholder="Username "
           name="username"
           value={username}
@@ -40,7 +40,7 @@ function Signup() {
         <input
           type="password"
           id="inputPassword"
-          class="form-control"
+          className="form-control"
           placeholder="Password "
           autoComplete="off"
           value={password}
@@ -57,7 +57,7 @@ function Signup() {
         <input
           type="email"
           id="inputEmail"
-          class="form-control"
+          className="form-control"
           placeholder="Email"
           autoComplete="off"
           value={email}
