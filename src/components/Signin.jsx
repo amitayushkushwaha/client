@@ -30,7 +30,7 @@ function Signin() {
         <input
           type="text"
           id="inputUsername"
-          class="form-control"
+          className="form-control"
           placeholder="Username"
           value={username}
           name="username"
@@ -46,7 +46,7 @@ function Signin() {
         <input
           type="password"
           id="inputPassword"
-          class="form-control"
+          className="form-control"
           placeholder="Password "
           value={password}
           autoComplete="off"
